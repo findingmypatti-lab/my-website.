@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      background: #eeeaff;
+      font-family: Arial;
+      text-align: center;
+      padding: 40px 15px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      max-width: 300px;
+      margin: auto;
+    }
+
+    h1 {
+      color: #8a35c5;
+    }
+
+    button {
+      background: #8a35c5;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>Hello! 👋</h1>
+    <p>Welcome to my first website.</p>
+
+    <button onclick="alert('Your website works!')">
+      Click Me
+    </button>
+
+    <p>Made with HTML ❤️</p>
+  </div>
+</body>
+</html>

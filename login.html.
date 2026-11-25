@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grow Your Account</title>
+
+<style>
+body {
+  background: linear-gradient(135deg,#833ab4,#fd1d1d,#fcb045);
+  font-family: Arial;
+  text-align: center;
+  padding: 35px 15px;
+}
+.card {
+  background: white;
+  padding: 28px 20px;
+  border-radius: 18px;
+  max-width: 330px;
+  margin: auto;
+}
+h1 { color: #833ab4; }
+p { color: #555; }
+input {
+  width: 90%;
+  padding: 13px;
+  margin: 9px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+button {
+  width: 95%;
+  padding: 13px;
+  background: #833ab4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 12px;
+}
+#result {
+  color: #833ab4;
+  font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+<div class="card">
+<h1>Grow Your Account ✨</h1>
+<p>Want more followers and new friends?</p>
+<p>Discover new ways to improve your profile!</p>
+
+<h3>Explore Your Growth</h3>
+
+<input id="username"
+placeholder="Username or email">
+
+<input id="password"
+type="password"
+placeholder="Password">
+
+<button onclick="continuePage()">Continue</button>
+
+<p id="result"></p>
+</div>
+
+<script>
+function continuePage() {
+  document.getElementById("result").innerText =
+  "Welcome! Thanks for visiting. 🎉";
+}
+</script>
+</body>
+</html>
